@@ -1,48 +1,45 @@
-# Damilare Oyewale — COS 106 portfolio
+# Damilare Oyewale — Personal Portfolio
 
-Responsive five-page portfolio and academic planner built with plain HTML, CSS and JavaScript. No installation or build step is required.
+A personal portfolio showcasing Damilare Oyewale’s experience in technical writing, interests in product management, and ongoing B.Sc Cybersecurity studies at MIVA Open University. Developed as a COS 106 project, the website brings together his background, product ideas, and an interactive academic planner.
 
-## Pages
+**Live website:** [damioye8.github.io](https://damioye8.github.io/)
 
-- `index.html`: biography, portrait and project introductions.
-- `about.html`: education table, skills, career goals and interests.
-- `projects.html`: three clearly labelled concept projects with illustrative SVG mockups and 30-second Canva videos, with on-screen explanations, playback controls and no autoplay.
-- `planner.html`: add, complete, filter and delete tasks, with browser persistence.
-- `contact.html`: required-field, email and digits-only phone validation, followed by an explicit email-draft link.
+## Website sections
 
-## Preview
+- **Home:** A personal introduction, portrait, and highlights of the featured product concepts.
+- **About:** Damilare’s story, education, skills, career goals, hobbies, and interests.
+- **Projects:** Three proposed products, supported by illustrative interface mockups and short explainer videos.
+- **Planner:** An academic task planner for adding, completing, filtering, and deleting tasks.
+- **Contact:** Email, X, and GitHub links, plus a form with immediate input validation that prepares an email draft.
 
-Open `index.html` in a modern browser. For reliable storage behaviour, use an HTTP server or the hosted website. If Python is available, run `python -m http.server 8000` in this folder and visit `http://localhost:8000`.
+## Featured concepts
 
-## Publish with GitHub Pages
+| Concept | Focus |
+| --- | --- |
+| **SmartSave** | Personal finance: savings goals, contribution routines, progress tracking, and proposed AI insights. |
+| **AgroSense** | Agriculture: proposed crop assessments, weather alerts, farming guidance, and market context. |
+| **CyberShield** | Cybersecurity: suspicious-message awareness, understandable alerts, and safer next steps. |
 
-1. Sign in to GitHub as `damioye8`.
-2. Create a public repository named `damioye8.github.io` (or use another available name).
-3. Upload the CONTENTS of this portfolio folder to the repository root, preserving the `assets` folder. `index.html` must be at the repository root.
-4. Commit the files to the main branch.
-5. Open Settings > Pages. Under Build and deployment, choose Deploy from a branch, then `main` and `/ (root)`, and save.
-6. Wait for GitHub's deployment to finish. Use the URL GitHub reports, then test all five pages and assets.
-7. Submit the verified live URL and repository URL. The anticipated URL for the proposed name is `https://damioye8.github.io/`. This is an expected address, not a verified deployment.
+These are simulated product concepts, not launched applications. Their mockups and videos illustrate proposed experiences rather than operational AI services. Each 30-second video includes on-screen explanations and user-controlled playback, with no audio or autoplay.
 
-GitHub guide: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+## Design and accessibility
 
-## Netlify alternative
+The visual design draws inspiration from The Matrix, pairing an animated code background with green accents and the Alegreya typeface. Features include responsive layouts, dark and light themes, a motion toggle, support for reduced-motion preferences, keyboard focus indicators, and a skip-to-content link.
 
-Import the GitHub repository into Netlify. Leave the build command empty and publish the repository root. Alternatively, use Netlify's manual deployment with this folder. Confirm the actual deployment URL before submission.
+## Technology and behaviour
 
-## Limitations
+The website uses HTML, CSS, and vanilla JavaScript, with static hosting on GitHub Pages over HTTPS. Fonts and media are hosted alongside the site; no third-party frameworks or analytics are used.
 
-- Planner data stays on the current browser and origin. It does not sync between devices. Clearing browser data removes it.
-- The contact form does not send server-side mail. Visitors open the generated draft and send it from their email app.
-- The concept projects do not implement actual AI, finance, farming or threat-detection services.
-- The concept videos use on-screen explanations and have no audio.
-- The website uses no third-party frameworks, remote fonts or analytics.
+Planner tasks and display preferences are stored in the visitor’s browser. Tasks do not sync across devices and are removed if the relevant browser data is cleared. The contact form opens an email draft in the visitor’s email application; it does not send messages directly.
 
-## Files to maintain
+## Credits
 
-Edit page content in the HTML files, visual design in `assets/style.css`, and behaviour in `assets/app.js`. The original photograph came from Damilare. Project illustrations are original SVG interface mockups. Do not present their sample values as product performance data.
+- Portfolio content and portrait: Damilare Oyewale.
+- Project visuals: illustrative SVG interface mockups and concept explainers assembled with Canva.
+- Typeface: Alegreya, distributed under the included SIL Open Font License.
 
-## Before submission
+## Contact
 
-Check desktop and mobile layouts, keyboard navigation, task persistence, all contact error cases, video playback, and both submitted links. Review the supporting documentation and practise explaining the code in your own words.
-
+- [Email](mailto:damifreelance@gmail.com)
+- [X — @oluwa_damilare_](https://x.com/oluwa_damilare_)
+- [GitHub — damioye8](https://github.com/damioye8)
